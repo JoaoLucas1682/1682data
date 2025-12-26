@@ -66,3 +66,6 @@ VM1565:5 Função encontrada: loadTimes
 ```
 
 Caso alguém quiser explorar tá aí.
+
+Edit 1: Isto só funciona em páginas específicas. Em uma página comum (tipo o about:blank), a(s) função(ões) não aparece.
+
