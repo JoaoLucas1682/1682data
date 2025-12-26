@@ -29,3 +29,4 @@ Promise {<pending>}
 - [[PromiseState]]: "fulfilled"
 - [[PromiseResult]]: true
 ```
+Edit 1: Isto só funciona em páginas específicas. Em uma página comum (tipo o about:blank), a função não aparece.
