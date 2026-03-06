@@ -5,6 +5,7 @@
 **Esta função foi testada no Microsoft Edge 143.0.3650.96 e funciona corretamente**
 
 Inicia o modo do Copilot Vision no navegador Microsoft Edge.
+Página testada: https://www.microsoft.com/en-us/edge/copilot/vision
 
 Sintaxe:
 ```
@@ -29,4 +30,4 @@ Promise {<pending>}
 - [[PromiseState]]: "fulfilled"
 - [[PromiseResult]]: true
 ```
-Edit 1: Isto só funciona em páginas específicas. Em uma página comum (tipo o about:blank), a função não aparece.
+Detalhe: Isto só funciona em páginas específicas. Em uma página comum (tipo o about:blank), a função não aparece.
