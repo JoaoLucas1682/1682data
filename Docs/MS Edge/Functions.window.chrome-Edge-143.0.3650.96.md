@@ -1,5 +1,4 @@
-Pra quem quiser explorar mais porque não tô com tempo agora,
-Executei a seguinte função:
+A função seguinte lista funções de qualquer objeto selecionado.
 ```
 function listFunctions(obj, prefix = "") {
   Object.keys(obj).forEach(key => {
@@ -17,7 +16,7 @@ function listFunctions(obj, prefix = "") {
 
 listFunctions(window.chrome);
 ```
-e de repente descobri as funções do window.chrome no Edge (143.0.3650.96):
+E então, descobri funções do window.chrome no Edge (143.0.3650.96) neste [link](https://www.microsoft.com/en-us/edge/copilot/vision):
 
 ```
 VM1565:5 Função encontrada: loadTimes
@@ -66,6 +65,5 @@ VM1565:5 Função encontrada: loadTimes
 ```
 
 Caso alguém quiser explorar tá aí.
-
-Edit 1: Isto só funciona em páginas específicas. Em uma página comum (tipo o about:blank), a(s) função(ões) não aparece.
+Detalhe: Isto só funciona em páginas específicas. Em uma página comum (tipo o about:blank), a(s) função(ões) não aparece.
 
